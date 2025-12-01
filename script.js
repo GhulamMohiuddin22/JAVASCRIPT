@@ -243,23 +243,23 @@
 //     document.write(table_num + " x " + i + " = " + (table_num * i) + "<br>");
 // }
 // // ====== Chapter 0 (Q 5) ======= //
-var subject1 = prompt("Enter name of subject 1:");
-var subject2 = prompt("Enter name of subject 2:");
-var subject3 = prompt("Enter name of subject 3:");
-var total_marks = 100;
-var marks_obtained1 = +prompt("Enter marks obtained in " + subject1 + ":");
-var marks_obtained2 = +prompt("Enter marks obtained in " + subject2 + ":");
-var marks_obtained3 = +prompt("Enter marks obtained in " + subject3 + ":");
-var total_obtained = marks_obtained1 + marks_obtained2 + marks_obtained3;
-var percentage1 = (marks_obtained1 / total_marks) * 100;
-var percentage2 = (marks_obtained2 / total_marks) * 100;
-var percentage3 = (marks_obtained3 / total_marks) * 100;
-var overall_percentage = (total_obtained / (total_marks * 3)) * 100;
-document.write("<br>" + "<h1>Marks Sheet</h1>" + "<br>");
-document.write("Subject &nbsp;&nbsp;&nbsp; Total Marks &nbsp;&nbsp;&nbsp; Marks Obtained &nbsp;&nbsp;&nbsp; Percentage<br>");
+// var subject1 = prompt("Enter name of subject 1:");
+// var subject2 = prompt("Enter name of subject 2:");
+// var subject3 = prompt("Enter name of subject 3:");
+// var total_marks = 100;
+// var marks_obtained1 = +prompt("Enter marks obtained in " + subject1 + ":");
+// var marks_obtained2 = +prompt("Enter marks obtained in " + subject2 + ":");
+// var marks_obtained3 = +prompt("Enter marks obtained in " + subject3 + ":");
+// var total_obtained = marks_obtained1 + marks_obtained2 + marks_obtained3;
+// var percentage1 = (marks_obtained1 / total_marks) * 100;
+// var percentage2 = (marks_obtained2 / total_marks) * 100;
+// var percentage3 = (marks_obtained3 / total_marks) * 100;
+// var overall_percentage = (total_obtained / (total_marks * 3)) * 100;
+// document.write("<br>" + "<h1>Marks Sheet</h1>" + "<br>");
+// document.write("Subject &nbsp;&nbsp;&nbsp; Total Marks &nbsp;&nbsp;&nbsp; Marks Obtained &nbsp;&nbsp;&nbsp; Percentage<br>");
 
-document.write(subject1 + ";&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + total_marks + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + marks_obtained1 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + percentage1.toFixed(2) + "%<br>");
-document.write(subject2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + total_marks + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + marks_obtained2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + percentage2.toFixed(2) + "%<br>");
-document.write(subject3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + total_marks + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + marks_obtained3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + percentage3.toFixed(2) + "%<br>");
-document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + (total_marks * 3) + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + total_obtained + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + overall_percentage.toFixed(2) + "%<br>");
+// document.write(subject1 + ";&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + total_marks + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + marks_obtained1 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + percentage1.toFixed(2) + "%<br>");
+// document.write(subject2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + total_marks + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + marks_obtained2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + percentage2.toFixed(2) + "%<br>");
+// document.write(subject3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + total_marks + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + marks_obtained3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + percentage3.toFixed(2) + "%<br>");
+// document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + (total_marks * 3) + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + total_obtained + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + overall_percentage.toFixed(2) + "%<br>");
 // ====== END ======= //
