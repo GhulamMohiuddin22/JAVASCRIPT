@@ -206,3 +206,60 @@
 // document.write("Estimated Maximum Age: " + max_age + "<br>");
 // document.write("Amount of snack per day: " + amount_per_day + "<br>");
 // document.write("You will need " + total_needed + " " + snack + " to last you until the ripe old age of " + max_age + "<br>");
+// // ====== Chapter 0 (Q 1) ======= //
+// var a = 10;
+// document.write("Result:"+"<br>"+"The value of a is: " + a + "<br>");
+// document.write("...................................." + "<br><br>"); 
+// ++a;
+// document.write("The value of ++a is: " + a + "<br>");
+// document.write("Now the value of a is: " + a + "<br><br>");
+// a++;
+// document.write("The value of a++ is: " + (a - 1) + "<br>");
+// document.write("Now the value of a is: " + a + "<br><br>");
+// --a;
+// document.write("The value of --a is: " + a + "<br>");
+// document.write("Now the value of a is: " + a + "<br><br>");
+// a--;
+// document.write("The value of a-- is: " + (a + 1) + "<br>");
+// document.write("Now the value of a is: " + a + "<br>");
+// // ====== Chapter 0 (Q 2) ======= //
+
+// var a = 2, b = 1;
+// var result = --a - --b + ++b + b--;
+// document.write("a is: " + a + "<br>");
+// document.write("b is: " + b + "<br>");
+// document.write("result is: " + result + "<br>");
+
+// // ====== Chapter 0 (Q 3) ======= //
+// var user_name = prompt("Enter your name:");
+// alert("Welcome " + user_name + "!");
+// // ====== Chapter 0 (Q 4) ======= //
+// var table_num = +prompt("Enter a number to show its multiplication table:");
+// if(table_num == 0){
+//     table_num = 5;
+// }
+// document.write("<br>" + "Table of " + table_num + "<br>");
+// for(var i=1; i<=10; i++){
+//     document.write(table_num + " x " + i + " = " + (table_num * i) + "<br>");
+// }
+// // ====== Chapter 0 (Q 5) ======= //
+var subject1 = prompt("Enter name of subject 1:");
+var subject2 = prompt("Enter name of subject 2:");
+var subject3 = prompt("Enter name of subject 3:");
+var total_marks = 100;
+var marks_obtained1 = +prompt("Enter marks obtained in " + subject1 + ":");
+var marks_obtained2 = +prompt("Enter marks obtained in " + subject2 + ":");
+var marks_obtained3 = +prompt("Enter marks obtained in " + subject3 + ":");
+var total_obtained = marks_obtained1 + marks_obtained2 + marks_obtained3;
+var percentage1 = (marks_obtained1 / total_marks) * 100;
+var percentage2 = (marks_obtained2 / total_marks) * 100;
+var percentage3 = (marks_obtained3 / total_marks) * 100;
+var overall_percentage = (total_obtained / (total_marks * 3)) * 100;
+document.write("<br>" + "<h1>Marks Sheet</h1>" + "<br>");
+document.write("Subject &nbsp;&nbsp;&nbsp; Total Marks &nbsp;&nbsp;&nbsp; Marks Obtained &nbsp;&nbsp;&nbsp; Percentage<br>");
+
+document.write(subject1 + ";&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + total_marks + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + marks_obtained1 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + percentage1.toFixed(2) + "%<br>");
+document.write(subject2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + total_marks + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + marks_obtained2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + percentage2.toFixed(2) + "%<br>");
+document.write(subject3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + total_marks + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + marks_obtained3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + percentage3.toFixed(2) + "%<br>");
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + (total_marks * 3) + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + total_obtained + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + overall_percentage.toFixed(2) + "%<br>");
+// ====== END ======= //
